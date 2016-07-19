@@ -2,6 +2,10 @@
 This project started as a simple maker replacement for an Amazon AWS IoT Button. It is a learning endeavor that turned into a collaboration with @tikurahul as well as an exercise in iterating on hardware and cloud services. The firmware in this project is meant to connect to cloud services provided by the [iot_button](https://github.com/tikurahul/iot-button) project.
 
 ## How Do I Use It?
+### Connect the Hardware
+![Hookup diagram for the IoT Button](./hookup.png)
+
+### Get the Code
 Get your Particle device [set up and connected to your WiFi](https://docs.particle.io/start/). To install the firmware on your Particle device simply copy the contents of [iot-button.ino](./iot-button.ino) into a Particle Build or Particle Dev project. Currently the click behavior is hard-coded but you can modify the `callCloudService()` function to perform any IoT task you want.
 
 ## How Do I Update It?
